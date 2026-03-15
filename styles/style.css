@@ -67,12 +67,11 @@
   justify-self: end;
   margin-top: 75px;
 }
-/*
+
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;  
   gap: 10px;
-  
 }
 
 .header__theme-menu-item {
@@ -94,26 +93,16 @@
 }
 
 .header__title {
-
-}
-
-.main-title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   font-weight: 700;
   color: #DB00FF;
   text-shadow: 4px 4px 0 #FF0070;  
 }
-
-.header__description {
+.header__text {
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   line-height: 23.4px;
   font-weight: 700;
-}
-
-.title-decor {
-  color: #000028;
-  background-color: #FF0070;
 }
 
 .content {
@@ -123,16 +112,15 @@
 
 }
 
-.card_section {
+.card__section {
   gap: 20px;
 }
 
-.card-styles {
-  display: grid;
-  grid-template-columns: 1fr;
+.card__section-reasons {
+
 }
 
-.heading_title {
+.heading__title {
   color:#FF0070;  
 }
 
@@ -142,20 +130,15 @@
   line-height: 23.4px;
 }
 
-.card_list {
+.reasons__list {
   gap: 20px;
 }
 
-.cards-list__item {
-  gap:10px;
+.answer {
+
 }
 
-.cards-list__subtitle {
-  color: #000028;
-}
-
-
-.section_title {
+.answer__title {
   color: #DB00FF;
   /*margin: 0 0 var(--space-m) 0;
   color: #FF0070;
@@ -164,51 +147,50 @@
   line-height: 23.4px;*/
 }
 
-.cards-list__description {
-
-}
-
-.text__style {
+.answer__text{
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
 }
 
-.card-section_container {
-  gap: 20px;
+.focus__word {
+
 }
 
-.section-title {
-  color:#FF0070;
+.reasons__list {
+
 }
 
-.cards-list {
-  gap:20px;
+.card__section-concentration {
+  
 }
 
-.card-section_list {
-  gap:19px;
-  list-style-type: none;
+.concentrations__list {
+
 }
 
-.card-decorate {
-  display: flex;
-  flex-direction: column;
+.card__section-recommendation {
+
 }
 
-.cards-list__tagline {
-  color:#000028;
+.recommendations__list {
+
 }
 
-.section {
+.recommendation__title-main {
+
+}
+
+.recommendation_title {
 
 }
 
 .gallery {
-
+  display: grid;
+  gap:10px;
 }
 
-.section__subtitle {
+.picture__question {
 
 }
 
@@ -222,7 +204,23 @@
 
 }
 
-.gallery__img {
+.pic__sunset {
+
+}
+
+.pic__ice {
+
+}
+
+.pic__tape {
+
+}
+
+.pic__books {
+
+}
+
+.pic__street {
 
 }
 
@@ -234,8 +232,4 @@
 
 .footer__title {
 
-}
-
-.main-title {
-  
 }
