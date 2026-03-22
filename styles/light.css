@@ -5,8 +5,41 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --nav-color: var(--text-color-grey-light);
+  --header-title-color: var(--color-focus-light);
+  --header-text-color: var(--text-color-grey-light);
+  --title-shadow-color: var(--color-accent-light);
+  --text-color-heading: var(--text-color-grey-light);
+  --bg-color-text: var(--color-accent-light);
+  --title-color: var(--text-color-grey-light);
+  --text-block-color: var(--text-color-grey-light);
+  --text-color: var(--text-color-grey-light);
+  --accent-color: var(--color-accent-light);
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: var(--bg-color-light);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --nav-color: var(--text-color-grey-light);
+  --header-title-color: var(--color-focus-light);
+  --header-text-color: var(--text-color-grey-light);
+  --title-shadow-color: var(--color-accent-light);
+  --text-color-heading: var(--text-color-grey-light);
+  --bg-color-text: var(--color-accent-light);
+  --title-color: var(--text-color-grey-light);
+  --text-block-color: var(--text-color-grey-light);
+  --text-color: var(--text-color-grey-light);
+  --accent-color: var(--color-accent-light);
+  --background-image: url(../images/cover-image-light.png);
+  --background-color: var(--bg-color-light);
+  }
+}
+
+.theme-light .rec::before {
+  display: none;
+}
+
+.theme-light .rec::after {
+  display: none;
 }
