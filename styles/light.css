@@ -22,17 +22,17 @@
 @media (prefers-color-scheme: light) {
   :root {
     --nav-color: var(--text-color-grey-light);
-  --header-title-color: var(--color-focus-light);
-  --header-text-color: var(--text-color-grey-light);
-  --title-shadow-color: var(--color-accent-light);
-  --text-color-heading: var(--text-color-grey-light);
-  --bg-color-text: var(--color-accent-light);
-  --title-color: var(--text-color-grey-light);
-  --text-block-color: var(--text-color-grey-light);
-  --text-color: var(--text-color-grey-light);
-  --accent-color: var(--color-accent-light);
-  --background-image: url(../images/cover-image-light.png);
-  --background-color: var(--bg-color-light);
+    --header-title-color: var(--color-focus-light);
+    --header-text-color: var(--text-color-grey-light);
+    --title-shadow-color: var(--color-accent-light);
+    --text-color-heading: var(--text-color-grey-light);
+    --bg-color-text: var(--color-accent-light);
+    --title-color: var(--text-color-grey-light);
+    --text-block-color: var(--text-color-grey-light);
+    --text-color: var(--text-color-grey-light);
+    --accent-color: var(--color-accent-light);
+    --background-image: url(../images/cover-image-light.png);
+    --background-color: var(--bg-color-light);
   }
 }
 

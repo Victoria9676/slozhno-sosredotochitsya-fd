@@ -3,22 +3,18 @@
   --main-font: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
   --decorate-gap: clamp(10px, 2.65vw, 20px);
+  --text-size:18px;
+  --min-height: 668px;
+  --main-font-weight: 700;
    /*Темные переменные*/
   --bg-color-dark: #000028;
   --color-focus-dark: #db00ff;
   --color-accent-dark: #ff0070;
-  --text-color-text-dark:#f1b2ce; 
+  --text-color-text-dark: #f1b2ce;
   --text-color-title-dark: #000028;
-
   /*Светлые переменные*/
   --bg-color-light: #FFF1F7;
   --color-focus-light: #FFC2E6;
   --color-accent-light: #ff8dcb;
   --text-color-grey-light: #353430;
-  
-
-  --text-size:18px;
-  --min-height: 668px;
-  --main-font-weight: 700;
-
 }
