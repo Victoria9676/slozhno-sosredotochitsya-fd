@@ -1,6 +1,6 @@
 :root {
   --background-image: url(../images/cover-image-dark.png);
   --background-color: #000028;
-  --main-font: "IBM Plex mono", monospace;
-  
+  --main-font: 'IBM Plex mono', monospace;
+  --main-font-size: 18px;
 }

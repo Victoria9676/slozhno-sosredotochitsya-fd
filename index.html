@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="color-scheme" content="dark light" />
     <!-- Иконки -->
     <link rel="icon" href="..images/favicon.ico" sizes="any" />
     <link rel="icon" href="..images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="..images/mobile-icon.svg" />
     <!-- Стили стандартные-->
+     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href5="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
     <!-- Стили персональные-->
     <title>Сложно сосредоточиться</title>
@@ -19,7 +22,7 @@
   </head>
   <body class="page">
     <header class="header decorated-zone">
-      <span class="rec">REC</span>
+      <span class="rec"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -59,7 +62,7 @@
     <main class="content">
       <!-- Блок 1-->
       <section class="card__section card__section-reasons">
-        <h2 class="heading__title heading-style">
+        <h2 class="heading__title heading_reas">
           Почему сосредоточиться так сложно
         </h2>
         <div class="reasons__list">
@@ -70,7 +73,7 @@
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи
-              <a class="focus__word" href="#" target="_blank">выяснили</a>, что
+              <a class="focus__word" href="https://dana.org/news-and-insights/" target="_blank">выяснили</a>, что
               мозгу тяжело концентрироваться даже на двух делах одновременно. А
               когда в поле внимания попадает несколько важных задач, организм
               паникует и выделяет кортизол и адреналин — «гормоны стресса».
@@ -94,11 +97,11 @@
       </section>
       <!-- Блок 2-->
       <section class="card__section card__section-concentration">
-        <h2 class="heading__title heading-style">
+        <h2 class="heading__title heading_conc">
           Что снижает концентрацию внимания?
         </h2>
         <div class="concentrations__list">
-          <article class="answer">
+          <article class="answer answer_conc">
             <h3 class="answer__title">Концентрация</h3>
             <p class="answer__text">
               Как концентрация может снижаться из-за… концентрации? Любая
@@ -109,7 +112,7 @@
               может не выдержать, если не давать ей отдохнуть.
             </p>
           </article>
-          <article class="answer">
+          <article class="answer answer_conc">
             <h3 class="answer__title">Еда</h3>
             <p class="answer__text">
               «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -120,7 +123,7 @@
               хотим ещё больше быстрых углеводов.
             </p>
           </article>
-          <article class="answer">
+          <article class="answer answer_conc">
             <h3 class="answer__title">Гаджеты</h3>
             <p class="answer__text">
               Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -136,7 +139,7 @@
       </section>
       <!-- Блок 3-->
       <section class="card__section card__section-recommendation">
-        <h2 class="heading__title heading-style">
+        <h2 class="heading__title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
         </h2>
@@ -146,7 +149,7 @@
           </h3>
 
           <h4 class="recommendation_title">Представьте небо и облака</h4>
-          <p class="answer_text">
+          <p class="answer__text">
             Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
             успокоиться. Ведь часто именно тревожные мысли о сложных задачах как
             раз и мешают эти сложные задачи делать. В такие моменты можно
@@ -158,7 +161,7 @@
           </p>
 
           <h4 class="recommendation_title">Включите музыку</h4>
-          <p class="answer_text">
+          <p class="answer__text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
             Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще
@@ -166,9 +169,9 @@
           </p>
 
           <h4 class="recommendation_title">Прогуляйтесь</h4>
-          <p class="answer_text">
+          <p class="answer__text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
-            <a class="focus_word" href="#" target="_blank">показал</a>, что созерцание природы повышает концентрацию, в то время
+            <a class="focus_word" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank">показал</a>, что созерцание природы повышает концентрацию, в то время
             как после просмотра городских пейзажей она наоборот понижается.
             Можно совместить прогулку с физическими упражнениями или бегом — так
             в мозг поступит ещё больше кислорода и он будет лучше работать. Но и
@@ -176,7 +179,7 @@
           </p>
 
           <h4 class="recommendation_title">Хорошо ешьте</h4>
-          <p class="answer_text">
+          <p class="answer__text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
             высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица,
@@ -184,7 +187,7 @@
           </p>
 
           <h4 class="recommendation_title">Читайте</h4>
-          <p class="answer_text">
+          <p class="answer__text">
             Настоящие бумажные книги. Это правда помогает с концентрацией: чтобы
             прочитать пост в соцсети, достаточно нескольких минут или даже
             секунд. А вот интересная книга способна затянуть и на несколько
@@ -201,8 +204,6 @@
               src="./images/sunset.png"
               class="gallery__img"
               alt="Красивый закат"
-              width="100%"
-              height="100%"
               loading="lazy"
             />
           </li>
@@ -211,8 +212,6 @@
               src="./images/ice-cream.png"
               class="gallery__img"
               alt="Мороженое"
-              width="100%"
-              height="100%"
               loading="lazy"
             />
           </li>
@@ -221,8 +220,6 @@
               src="./images/tape.png"
               class="gallery__img"
               alt="Кассета"
-              width="100%"
-              height="100%"
               loading="lazy"
             />
           </li>
@@ -231,8 +228,6 @@
               src="./images/books.png"
               class="gallery__img"
               alt="Книги"
-              width="100%"
-              height="100%"
               loading="lazy"
             />
           </li>
@@ -241,8 +236,6 @@
               src="./images/street.png"
               class="gallery__img"
               alt="Улица"
-              width="100%"
-              height="100%"
               loading="lazy"
             />
           </li>
