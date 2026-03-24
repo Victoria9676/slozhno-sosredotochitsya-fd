@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --nav-color: var(--color-accent-dark);
+  --nav-color-hover: var(--hover-accent-dark);
   --header-title-color: var(--color-focus-dark);
   --header-text-color: var(--text-color-title-dark);
   --title-shadow-color: var(--color-accent-dark);
@@ -22,6 +23,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --nav-color: var(--color-accent-dark);
+    --nav-color-hover: var(--hover-accent-dark);
     --header-title-color: var(--color-focus-dark);
     --header-text-color: var(--text-color-title-dark);
     --title-shadow-color: var(--color-accent-dark);

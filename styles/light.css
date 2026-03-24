@@ -6,6 +6,7 @@
 
 :root.theme-light {
   --nav-color: var(--text-color-grey-light);
+  --nav-color-hover: var(--hover-accent-light);
   --header-title-color: var(--color-focus-light);
   --header-text-color: var(--text-color-grey-light);
   --title-shadow-color: var(--color-accent-light);
@@ -22,6 +23,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --nav-color: var(--text-color-grey-light);
+    --nav-color-hover: var(--hover-accent-light);
     --header-title-color: var(--color-focus-light);
     --header-text-color: var(--text-color-grey-light);
     --title-shadow-color: var(--color-accent-light);
@@ -33,6 +35,14 @@
     --accent-color: var(--color-accent-light);
     --background-image: url(../images/cover-image-light.png);
     --background-color: var(--bg-color-light);
+  }
+
+  .rec::before {
+    display: none;
+  }
+
+  .rec::after {
+    display: none;
   }
 }
 

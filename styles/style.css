@@ -4,6 +4,7 @@
   line-height: 1.3;
   background-color: var(--background-color);
   background-image: var(--background-image);
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -62,7 +63,7 @@
 }
 
 .header__theme-menu-button:hover:not(.header__theme-menu-button_active) {
-  border: 1px solid var(--nav-color);
+  border: 1px solid var(--nav-color-hover);
 }
 
 /*Уголки*/
@@ -157,6 +158,8 @@
   flex-direction: column;
 }
 
+
+
 /*mobile(375)*/
 .gallery__list {
   display: grid;
@@ -249,12 +252,7 @@
 }
 
 .recommendation_title {
-  margin-top: 20px;
-  color: var(--text-block-color);
-  font-size: inherit;
   font-weight: 400;
-  line-height: 23.4px;
-  background-color: var(--bg-color-text);
 }
 
 .footer__title {
@@ -380,6 +378,10 @@
 
   .answer__title {
     margin-top: 0;
+  }
+
+  .answer_rec {
+    margin-top: 20px;
   }
 }
 
